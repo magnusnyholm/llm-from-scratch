@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data and model artifacts (large files)
+data/*
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.npy
+
+# Experiment tracking
+wandb/
+runs/
+logs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
